@@ -1,0 +1,20 @@
+<script>
+        const pokemon = [
+            "Umbreon",
+            "Mimikyu",
+            "Sylveon",
+            "Eevee",
+            "Vaporeon",
+            "Rayquaza",
+            "Lucario",
+            "Chandelure",
+            "Mew",
+            "Espeon"
+        ];
+
+        const randomPokemon = pokemon[Math.floor(Math.random() * pokemon.length)];
+
+        document.getElementById("pokemon").textContent = randomPokemon;
+    </script>
+</body>
+</html>
